@@ -13,7 +13,7 @@ pip3 install flloat
 ## Run
 - Example:
 ```
-python LTL<sub>p</sub>2DFA.py 'G(a -> F(b))'
+python LTLp2DFA.py 'G(a -> F(b))'
 ```
 
 ## Output
