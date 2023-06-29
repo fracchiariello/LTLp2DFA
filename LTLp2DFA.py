@@ -47,7 +47,7 @@ def main():
     letters.add('*') #symbol representing activities non appearing in the formula
     singleton_dfa = symbolic_to_singleton(symbolic_dfa,letters)
     graph = singleton_dfa.to_graphviz()
-    graph.render("../results/DFA")
+    graph.render("output/DFA")
     print(singleton_dfa.transition_function)
     
 main()
