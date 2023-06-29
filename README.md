@@ -1,4 +1,4 @@
-# LTLp2DFA
+# LTL<sub>p</sub>2DFA
 A tool to convert formulae of Linear Temporal Logic on Process Trace into Finite-State Automata
 
 ## Links
@@ -13,7 +13,7 @@ pip3 install flloat
 ## Run
 - Example:
 ```
-python LTLp2DFA.py 'G(a -> F(b))'
+python LTL<sub>p</sub>2DFA.py 'G(a -> F(b))'
 ```
 
 ## Output
